@@ -4,6 +4,7 @@
   align-items: center;
   height: 350px;
   color: rgb(47, 207, 11);
+  margin-top: 80px;
 }
 .left {
   width: 50%;
@@ -91,6 +92,7 @@
 .icons a {
   list-style: none;
   margin: 10px;
+  
 }
 .right {
   width: 50%;
@@ -108,5 +110,6 @@
   border-radius: 10px;
   margin-left: 80px;
   margin-bottom: 80px;
+  
 
 }

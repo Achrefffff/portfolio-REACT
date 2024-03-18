@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../assets/MAC.png";
 
@@ -9,14 +10,34 @@ const Navbar = () => {
         <img src={logo} alt="logo" className="logo" />
       </div>
       <div>
-        <p className="nom">  M.Achref.Chouikh 🌋</p>
+        <p className="nom"> M.Achref.Chouikh 🌋</p>
       </div>
       <ul className="navigation">
-        <li>accueil </li>
-        <li>About</li>
-        <li>Parcours</li>
-        <li>Projet</li>
-        <li>Contact</li>
+        <li>
+          <Link className="link" to="/">
+            accueil
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="/about">
+            About
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="/parcours">
+            Parcours
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="/projet">
+            Projet
+          </Link>
+        </li>
+        <li>
+          <Link className="link" to="/contact">
+            Contact
+          </Link>
+        </li>
       </ul>
     </nav>
   );

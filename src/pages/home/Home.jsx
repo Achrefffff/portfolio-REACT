@@ -15,7 +15,7 @@ const Home = () => {
         <div className="titre">
           <h1>Achref &nbsp;CHOUIKH</h1>
           <h2>Développeur Web REACT | NODE</h2>
-          <button class="button type1">
+          <button className="button type1">
             <FontAwesomeIcon
               icon={faDownload}
               style={{
@@ -25,7 +25,7 @@ const Home = () => {
                 marginRight: "12px",
               }}
             />
-            <span class="btn-txt">MON CV</span>
+            <span className="btn-txt">MON CV</span>
           </button>
         </div>
         <div className="icons">
