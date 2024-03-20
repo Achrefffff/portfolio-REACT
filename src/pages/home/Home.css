@@ -3,7 +3,6 @@
   flex-direction: row;
   align-items: center;
   height: 350px;
-  color: rgb(47, 207, 11);
   margin-top: 80px;
 }
 .left {
@@ -27,13 +26,11 @@
 .titre h1 {
   font-weight: 600;
   font-size: 2.5rem;
-  color: whitesmoke;
   overflow-wrap: break-word;
 }
 .titre h2 {
   font-weight: 400;
   font-size: 1.5rem;
-  color: whitesmoke;
   overflow-wrap: break-word;
 }
 
@@ -41,7 +38,7 @@
   height: 50px;
   width: 200px;
   position: relative;
-  background-color: white;
+  background: #260940;
   cursor: pointer;
   border: 2px solid #252525;
   overflow: hidden;
@@ -55,8 +52,8 @@
   z-index: 1;
   font-weight: 600;
   letter-spacing: 4px;
-  background: white;
-  color: black;
+  background: #260940;
+  color: rgb(255, 255, 255);
 }
 
 .type1::after {
@@ -75,7 +72,6 @@
 
 .button:hover {
   box-shadow: 1px 1px 30px #ffffff;
-  color: #fff;
   border: none;
 }
 
@@ -92,7 +88,6 @@
 .icons a {
   list-style: none;
   margin: 10px;
-  
 }
 .right {
   width: 50%;
@@ -110,6 +105,4 @@
   border-radius: 10px;
   margin-left: 80px;
   margin-bottom: 80px;
-  
-
 }

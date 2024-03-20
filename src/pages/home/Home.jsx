@@ -21,7 +21,7 @@ const Home = () => {
               style={{
                 color: "black",
                 fontSize: "1.5em",
-                backgroundColor: "white",
+                backgroundColor: "#260940",
                 marginRight: "12px",
               }}
             />

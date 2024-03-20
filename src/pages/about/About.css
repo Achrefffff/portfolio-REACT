@@ -1,7 +1,6 @@
 .container {
   display: flex;
   height: 430px;
-  color: yellow;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -10,18 +9,16 @@
   
 }
 .container h3 {
-  color: white;
+ 
   text-align: center;
   padding-top: 0;
   margin-right: auto;
   font-style: italic;
   font-weight: lighter;
-  border-bottom: 1px solid white;
+  border-bottom: 1.5px solid #610bad;
 }
 .container p {
-  color: white;
   text-align: center;
-
   text-align: justify;
   font-weight: 400;
   font-size: 1.1rem;

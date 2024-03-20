@@ -8,12 +8,9 @@ nav {
   margin-left: 50px;
   margin-top: 15px;
   cursor: pointer;
-  
- 
 }
 nav p {
   margin-top: 40px;
-  color: white;
   margin-left: 20px;
   position: relative;
   font-size: 1.25rem;
@@ -28,17 +25,15 @@ nav ul {
   justify-content: center;
   margin-left: 300px;
   margin-top: 40px;
-  
 }
 
 .nom {
-  text-shadow: 0px 0px 10px  rgb(255, 255, 255);
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
   font-size: 20px;
 }
 .link {
-  color: white;
   text-decoration: none;
-  list-style: none;
+
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 0.7px;
@@ -47,7 +42,7 @@ nav ul {
   margin-right: 27px;
   cursor: pointer;
   margin-bottom: 80px;
-  text-shadow: 0px 0px 10px  rgb(255, 255, 255);
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 .link::after {
@@ -56,9 +51,9 @@ nav ul {
   bottom: -10px;
   left: 0;
   right: 0;
-  width: 80%;
-  height: 0.5px;
-  background-color: #ffffff;
+  width: 100%;
+  height: 1.5px;
+  background-color: #610bad;
   border-radius: 0.4rem;
   margin: 0 auto;
   transition: transform 0.3s ease-in-out;
