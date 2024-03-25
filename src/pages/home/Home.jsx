@@ -7,15 +7,24 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import homme from "../../assets/homme.jpg";
+import cv from '../../assets/CV_2024_ACHREF_CHOUIKH.pdf';
 
 const Home = () => {
+    const handleDownloadCV = () => {
+      const link = document.createElement("a");
+      link.href = cv; 
+      link.download = "CV_2024_ACHREF_CHOUIKH.pdf"; 
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    };
   return (
     <div className="home">
       <div className="left">
         <div className="titre">
           <h1>Achref &nbsp;CHOUIKH</h1>
           <h2>Développeur Web REACT | NODE</h2>
-          <button className="button type1">
+          <button className="button type1" onClick={handleDownloadCV}>
             <FontAwesomeIcon
               icon={faDownload}
               style={{
