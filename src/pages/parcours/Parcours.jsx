@@ -31,7 +31,7 @@ const Parcours = () => {
             </div>
           </div>
           <div className="right-column">
-            <h3 className="resume-title">Expérience Professionnelle</h3>
+            <h3 className="resume-title">Expérience Professionnelle.</h3>
             <div className="resume-item">
               <h4>Stage en Développement Web</h4>
               <h5>De janvier 2023 à juin 2023 </h5>

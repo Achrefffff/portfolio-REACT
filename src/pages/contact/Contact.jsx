@@ -60,7 +60,7 @@ const Contact = () => {
           </div>
 
           <button type="submit" value="Send" className="sendMessage-btn">
-            Send Message
+             Envoyer
           </button>
         </form>
       </div>
@@ -69,3 +69,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
