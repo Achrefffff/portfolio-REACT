@@ -58,3 +58,19 @@
   color: #ffffff;
   background: #260940;
 }
+
+@media only screen and (max-width: 768px) {
+  .container4 {
+    margin-left: 0;
+  }
+
+  .card {
+    width: calc(50% - 1rem); 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .card {
+    width: 100%; 
+  }
+}

@@ -71,3 +71,10 @@
   background: #260940;
   border: 2px solid #ffffff;
 }
+@media only screen and (max-width: 768px) {
+  .left-column, .right-column {
+    flex-basis: 100%;
+    margin-left: 0; 
+    margin-right: 0; 
+  }
+}

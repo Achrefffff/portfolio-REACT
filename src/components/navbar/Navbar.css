@@ -64,3 +64,51 @@ nav ul {
 .link:hover::after {
   transform: scaleX(1);
 }
+/* pour les écrans jusqu'à 768px de largeur */
+@media only screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo {
+    margin: 15px auto;
+  }
+
+  nav ul {
+    margin: 20px auto;
+  }
+
+  .link {
+    margin: 0 15px;
+  }
+
+  .link::after {
+    bottom: -5px;
+  }
+}
+
+/* pour les écrans supérieurs à 768px de largeur */
+@media only screen and (min-width: 769px) {
+  nav {
+    align-items: flex-start;
+  }
+
+  .logo {
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+
+  nav ul {
+    margin-left: 300px;
+    margin-top: 40px;
+  }
+
+  .link {
+    margin-bottom: 80px;
+  }
+
+  .link::after {
+    bottom: -10px;
+  }
+}
